@@ -27,5 +27,5 @@ foreach($ary[1] as $k=>&$v){
         echo '错误';
     }
 }
-
+//
 ?>
