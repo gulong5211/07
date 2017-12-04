@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html{
+				font-size: 12px ;
+			}
+			input{
+				margin-right: 2%;
+			}
+			button{
+				background-image: -webkit-linear-gradient(top,#FFAE47 ,#FF940C );
+				color: white;
+				padding: 6px;
+				font-weight: bold ;
+				border: 1px solid #D27301;
+				border-radius: 4px;
+			}
+			input[type='text']{
+				line-height: 30px;
+				width: 100%;
+				border: 1px solid #7E9DB9;
+			}
+			form>div>div>p{
+				margin: 5px 0;
+			}
+			input[type='radio']{
+				background: #DFDFDF;
+			}
+			form{
+				margin-top: 2vw;
+			}
+			form>div{
+				width: 100;
+				padding: 0 2%;
+			}
+			form>div>div{
+				border: 1px solid #DFDFDF;
+				padding: 8px;
+				border-bottom: none;
+			}
+			form>div:last-child>div{
+				border: 1px solid #DFDFDF;
+				position: relative;
+				height: 40px;
+			}
+			.title{
+				background: #F7F7F7;
+				font-weight: bold;
+			}
+			.red{
+				color: red;
+				margin: 0 5px;
+			}
+			.ts{
+				color: darkgray;
+			}
+			.btn_left{
+				margin-top: 4px;
+				float: left;
+				margin-left: 25%;
+			}
+			.btn_right{
+				margin-top: 4px;
+				float: right;
+				margin-right: 25%;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div>
+				<div class="title">收款人姓名：</div>
+				<div>
+					<p><input type="text" ></p>
+					<p><span class="red">*</span><span class="ts">填写收款人真实的姓名</span></p>
+				</div>
+			</div>
+			<div>
+				<div class="title">提现金额：</div>
+				<div>
+					<p><input type="text" ></p>
+					<p><span class="red">*</span><span class="ts">要体现的金额，此数值不得大于当前的账户余额</span></p>
+				</div>
+			</div>
+			<div>
+				<div class="title">选择银行卡：</div>
+				<div>
+					<p><input type="radio" name="type">中国农业银行：1401101997012025336984</p>
+					<p><input type="radio" name="type">北京银行：1401101997012025336984</p>
+					<p><input type="radio" name="type">中国工商银行：1401101997012025336984</p>
+					<p><input type="radio" name="type">中国建设银行：1401101997012025336984</p>
+				</div>
+			</div>
+			<div>
+				<div>					
+					<button class="btn_left">提交提现申请</button>
+					<button class="btn_right">取消</button>
+				</div>
+			</div>
+		</form>
+	</body>
+	<script type="text/javascript">
+		
+	</script>
+</html>
